@@ -1,6 +1,15 @@
 from random import *
 from colorama import Fore as color
 from os import system, name
+import pygame as game
+
+# Musica --------------------------------
+game.mixer.init()
+game.init()
+game.mixer.music.load('music.wav')
+game.mixer.music.set_volume(0.4)
+game.mixer.music.play(-1)
+
 
 global vermelho, verde, amarelo, azul, magenta, preto
 vermelho, verde, amarelo, azul, magenta, preto = (
