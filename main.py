@@ -5,7 +5,6 @@ import pygame as game
 
 # Musica --------------------------------
 game.mixer.init()
-game.init()
 game.mixer.music.load('music.wav')
 game.mixer.music.set_volume(0.4)
 game.mixer.music.play(-1)
