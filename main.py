@@ -54,7 +54,7 @@ um botão vermelho, na sala a frente há 5 pessoas,
 cada uma vestindo uma roupa de uma cor só,
 estranhamente a única coisa que você se lembra é que 
 a cada vez que você apertar o botão você irá ganhar
-uma boa quantia de dinheiro, porém alguém morre.'''
+uma boa quantia de dinheiro, porém aleatoriamente alguém morre.'''
     )
 
 
