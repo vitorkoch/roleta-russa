@@ -94,48 +94,62 @@ def perguntar():
 
 
 vermelho, verde, amarelo, azul, magenta, preto = True, True, True, True, True, True
+quantia = 0
 
 
 def atirar():
-    global vermelho, verde, amarelo, azul, magenta, preto
+    global quantia, vermelho, verde, amarelo, azul, magenta, preto
     tiro = randint(1, 6)
     if tiro == num_cor:
         print(f'{color.RED}VOCÊ MORREU!{color.RESET}')
+        print(f'Quantia ganha: R${quantia}')
         exit()
     elif tiro == 1:
         if vermelho:
             print(f'{color.RED}Vermelho{color.RESET} morreu')
+            print('+R$1000')
             vermelho = False
+            quantia += 1000
         else:
             atirar()
     elif tiro == 2:
         if verde:
             print(f'{color.GREEN}Verde{color.RESET} morreu')
+            print('+R$1000')
             verde = False
+            quantia += 1000
         else:
             atirar()
     elif tiro == 3:
         if amarelo:
             print(f'{color.YELLOW}Amarelo{color.RESET} morreu')
+            print('+R$1000')
             amarelo = False
+            quantia += 1000
         else:
             atirar()
     elif tiro == 4:
         if azul:
             print(f'{color.BLUE}Azul{color.RESET} morreu')
+            print('+R$1000')
             azul = False
+            quantia += 1000
         else:
             atirar()
     elif tiro == 5:
         if magenta:
             print(f'{color.MAGENTA}Magenta{color.RESET} morreu')
+            print('+R$1000')
             magenta = False
+            quantia += 1000
         else:
             atirar()
     elif tiro == 6:
         if preto:
             print(f'{color.BLACK}Preto{color.RESET} morreu')
+            print('+R$1000')
             preto = False
+            quantia += 1000
         else:
             atirar()
 
