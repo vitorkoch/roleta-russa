@@ -1,13 +1,13 @@
-from random import *
+from random import randint
 from colorama import Fore as color
 from os import system, name
-import pygame as game
+from pygame import mixer
 
 # Music ===============================
-game.mixer.init()
-game.mixer.music.load('music.wav')
-game.mixer.music.set_volume(0.4)
-game.mixer.music.play(-1)
+mixer.init()
+mixer.music.load('music.wav')
+mixer.music.set_volume(0.4)
+mixer.music.play(-1)
 
 
 def clear():
