@@ -3,7 +3,7 @@ from colorama import Fore as color
 from os import system, name
 import pygame as game
 
-# Música --------------------------------
+# Music ===============================
 game.mixer.init()
 game.mixer.music.load('music.wav')
 game.mixer.music.set_volume(0.4)
