@@ -4,5 +4,7 @@ Um joguinho em que você aperta um botão e aleatóriamente alguém morre (poden
 
 ---
 
-[![Run on Repl.it](https://repl.it/badge/github/vitorkoch/IFPA-tkinter)](https://repl.it/github/vitorkoch/roleta-russa)  
-Clique aqui para testar ele
+#### Requisitos para rodar:
+1. Python
+2. Biblioteca Colorama instalada
+3. Biblioteca Pygame instalada
